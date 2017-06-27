@@ -1,0 +1,18 @@
+PODS:
+  - Hyphenate (3.3.2)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - Hyphenate
+  - Masonry
+  - MBProgressHUD
+
+SPEC CHECKSUMS:
+  Hyphenate: b596a794ec253b089a6e5c952d718aeedd85c76c
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 3f7433a77635b3d5d5bda8f5b5fb9602be246a3c
+
+COCOAPODS: 1.1.1

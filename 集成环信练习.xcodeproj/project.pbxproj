@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00BD5900C38C9DFED7513066 /* libPods-集成环信练习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF04786A3DE46DB5C9BC6501 /* libPods-集成环信练习.a */; };
+		F52FA3691ED3D54D00C24680 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52FA3681ED3D54D00C24680 /* AVFoundation.framework */; };
+		F5851CF91ED44D22008632D6 /* FZActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5851CEE1ED44D22008632D6 /* FZActionView.m */; };
+		F5851CFA1ED44D22008632D6 /* FZCallController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5851CF01ED44D22008632D6 /* FZCallController.m */; };
+		F5851CFB1ED44D22008632D6 /* FZHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F5851CF21ED44D22008632D6 /* FZHelper.m */; };
+		F5851CFE1ED44D22008632D6 /* FZTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5851CF81ED44D22008632D6 /* FZTopView.m */; };
+		F5C4B62A1ED2EF5E00AAE621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C4B6291ED2EF5E00AAE621 /* main.m */; };
+		F5C4B62D1ED2EF5E00AAE621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C4B62C1ED2EF5E00AAE621 /* AppDelegate.m */; };
+		F5C4B6301ED2EF5E00AAE621 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C4B62F1ED2EF5E00AAE621 /* ViewController.m */; };
+		F5C4B6331ED2EF5E00AAE621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C4B6311ED2EF5E00AAE621 /* Main.storyboard */; };
+		F5C4B6351ED2EF5E00AAE621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C4B6341ED2EF5E00AAE621 /* Assets.xcassets */; };
+		F5C4B6381ED2EF5E00AAE621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C4B6361ED2EF5E00AAE621 /* LaunchScreen.storyboard */; };
+		F5C7CD021ED33C2F0038D711 /* JJMBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C7CD011ED33C2F0038D711 /* JJMBProgressHUD.m */; };
+		F5E2FA2A1ED6C72500B5053E /* iphone_5s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5E2FA291ED6C72500B5053E /* iphone_5s.mp3 */; };
+		F5E2FA2D1ED6E4B600B5053E /* JJSound.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E2FA2C1ED6E4B600B5053E /* JJSound.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A42BCE75DB7B6EF48235351 /* Pods-集成环信练习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-集成环信练习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-集成环信练习/Pods-集成环信练习.debug.xcconfig"; sourceTree = "<group>"; };
+		AF04786A3DE46DB5C9BC6501 /* libPods-集成环信练习.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-集成环信练习.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFD6815347A06B42EA8C32C /* Pods-集成环信练习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-集成环信练习.release.xcconfig"; path = "Pods/Target Support Files/Pods-集成环信练习/Pods-集成环信练习.release.xcconfig"; sourceTree = "<group>"; };
+		F526A8FA1ED44D7800BDAAE3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F52FA3681ED3D54D00C24680 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F5851CED1ED44D22008632D6 /* FZActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZActionView.h; sourceTree = "<group>"; };
+		F5851CEE1ED44D22008632D6 /* FZActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZActionView.m; sourceTree = "<group>"; };
+		F5851CEF1ED44D22008632D6 /* FZCallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZCallController.h; sourceTree = "<group>"; };
+		F5851CF01ED44D22008632D6 /* FZCallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZCallController.m; sourceTree = "<group>"; };
+		F5851CF11ED44D22008632D6 /* FZHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZHelper.h; sourceTree = "<group>"; };
+		F5851CF21ED44D22008632D6 /* FZHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZHelper.m; sourceTree = "<group>"; };
+		F5851CF71ED44D22008632D6 /* FZTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZTopView.h; sourceTree = "<group>"; };
+		F5851CF81ED44D22008632D6 /* FZTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZTopView.m; sourceTree = "<group>"; };
+		F5C4B6251ED2EF5E00AAE621 /* 集成环信练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "集成环信练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C4B6291ED2EF5E00AAE621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5C4B62B1ED2EF5E00AAE621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5C4B62C1ED2EF5E00AAE621 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5C4B62E1ED2EF5E00AAE621 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5C4B62F1ED2EF5E00AAE621 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5C4B6321ED2EF5E00AAE621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5C4B6341ED2EF5E00AAE621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5C4B6371ED2EF5E00AAE621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5C4B6391ED2EF5E00AAE621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C7CD001ED33C2F0038D711 /* JJMBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMBProgressHUD.h; sourceTree = "<group>"; };
+		F5C7CD011ED33C2F0038D711 /* JJMBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMBProgressHUD.m; sourceTree = "<group>"; };
+		F5E2FA291ED6C72500B5053E /* iphone_5s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = iphone_5s.mp3; sourceTree = "<group>"; };
+		F5E2FA2B1ED6E4B600B5053E /* JJSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJSound.h; sourceTree = "<group>"; };
+		F5E2FA2C1ED6E4B600B5053E /* JJSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJSound.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C4B6221ED2EF5E00AAE621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52FA3691ED3D54D00C24680 /* AVFoundation.framework in Frameworks */,
+				00BD5900C38C9DFED7513066 /* libPods-集成环信练习.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		439BC9618D9F447A3CE650A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A42BCE75DB7B6EF48235351 /* Pods-集成环信练习.debug.xcconfig */,
+				CBFD6815347A06B42EA8C32C /* Pods-集成环信练习.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3DC642C5DA7A1C025F74C33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F52FA3681ED3D54D00C24680 /* AVFoundation.framework */,
+				AF04786A3DE46DB5C9BC6501 /* libPods-集成环信练习.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5851CEC1ED44D22008632D6 /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				F5851CED1ED44D22008632D6 /* FZActionView.h */,
+				F5851CEE1ED44D22008632D6 /* FZActionView.m */,
+				F5851CEF1ED44D22008632D6 /* FZCallController.h */,
+				F5851CF01ED44D22008632D6 /* FZCallController.m */,
+				F5851CF11ED44D22008632D6 /* FZHelper.h */,
+				F5851CF21ED44D22008632D6 /* FZHelper.m */,
+				F5851CF71ED44D22008632D6 /* FZTopView.h */,
+				F5851CF81ED44D22008632D6 /* FZTopView.m */,
+				F5E2FA2B1ED6E4B600B5053E /* JJSound.h */,
+				F5E2FA2C1ED6E4B600B5053E /* JJSound.m */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		F5C4B61C1ED2EF5E00AAE621 = {
+			isa = PBXGroup;
+			children = (
+				F5C4B6271ED2EF5E00AAE621 /* 集成环信练习 */,
+				F5C4B6261ED2EF5E00AAE621 /* Products */,
+				439BC9618D9F447A3CE650A2 /* Pods */,
+				E3DC642C5DA7A1C025F74C33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C4B6261ED2EF5E00AAE621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C4B6251ED2EF5E00AAE621 /* 集成环信练习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C4B6271ED2EF5E00AAE621 /* 集成环信练习 */ = {
+			isa = PBXGroup;
+			children = (
+				F5E2FA291ED6C72500B5053E /* iphone_5s.mp3 */,
+				F5851CEC1ED44D22008632D6 /* Call */,
+				F5C7CCFF1ED33C2F0038D711 /* JJMBProgressHUD */,
+				F5C4B62B1ED2EF5E00AAE621 /* AppDelegate.h */,
+				F5C4B62C1ED2EF5E00AAE621 /* AppDelegate.m */,
+				F5C4B62E1ED2EF5E00AAE621 /* ViewController.h */,
+				F5C4B62F1ED2EF5E00AAE621 /* ViewController.m */,
+				F5C4B6311ED2EF5E00AAE621 /* Main.storyboard */,
+				F5C4B6341ED2EF5E00AAE621 /* Assets.xcassets */,
+				F5C4B6361ED2EF5E00AAE621 /* LaunchScreen.storyboard */,
+				F5C4B6391ED2EF5E00AAE621 /* Info.plist */,
+				F5C4B6281ED2EF5E00AAE621 /* Supporting Files */,
+			);
+			path = "集成环信练习";
+			sourceTree = "<group>";
+		};
+		F5C4B6281ED2EF5E00AAE621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5C4B6291ED2EF5E00AAE621 /* main.m */,
+				F526A8FA1ED44D7800BDAAE3 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5C7CCFF1ED33C2F0038D711 /* JJMBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F5C7CD001ED33C2F0038D711 /* JJMBProgressHUD.h */,
+				F5C7CD011ED33C2F0038D711 /* JJMBProgressHUD.m */,
+			);
+			path = JJMBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C4B6241ED2EF5E00AAE621 /* 集成环信练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C4B63C1ED2EF5E00AAE621 /* Build configuration list for PBXNativeTarget "集成环信练习" */;
+			buildPhases = (
+				EA5C72110FAF353E3346410C /* [CP] Check Pods Manifest.lock */,
+				F5C4B6211ED2EF5E00AAE621 /* Sources */,
+				F5C4B6221ED2EF5E00AAE621 /* Frameworks */,
+				F5C4B6231ED2EF5E00AAE621 /* Resources */,
+				C6BECE05C7269A988897FC7F /* [CP] Embed Pods Frameworks */,
+				062A031AA66B2CAAEE91DDF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "集成环信练习";
+			productName = "集成环信练习";
+			productReference = F5C4B6251ED2EF5E00AAE621 /* 集成环信练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C4B61D1ED2EF5E00AAE621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HUAMANLOU;
+				TargetAttributes = {
+					F5C4B6241ED2EF5E00AAE621 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 46LH2HV2WB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F5C4B6201ED2EF5E00AAE621 /* Build configuration list for PBXProject "集成环信练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5C4B61C1ED2EF5E00AAE621;
+			productRefGroup = F5C4B6261ED2EF5E00AAE621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C4B6241ED2EF5E00AAE621 /* 集成环信练习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C4B6231ED2EF5E00AAE621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C4B6381ED2EF5E00AAE621 /* LaunchScreen.storyboard in Resources */,
+				F5E2FA2A1ED6C72500B5053E /* iphone_5s.mp3 in Resources */,
+				F5C4B6351ED2EF5E00AAE621 /* Assets.xcassets in Resources */,
+				F5C4B6331ED2EF5E00AAE621 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		062A031AA66B2CAAEE91DDF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-集成环信练习/Pods-集成环信练习-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6BECE05C7269A988897FC7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-集成环信练习/Pods-集成环信练习-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5C72110FAF353E3346410C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C4B6211ED2EF5E00AAE621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C4B6301ED2EF5E00AAE621 /* ViewController.m in Sources */,
+				F5851CFA1ED44D22008632D6 /* FZCallController.m in Sources */,
+				F5E2FA2D1ED6E4B600B5053E /* JJSound.m in Sources */,
+				F5851CFB1ED44D22008632D6 /* FZHelper.m in Sources */,
+				F5851CF91ED44D22008632D6 /* FZActionView.m in Sources */,
+				F5C7CD021ED33C2F0038D711 /* JJMBProgressHUD.m in Sources */,
+				F5851CFE1ED44D22008632D6 /* FZTopView.m in Sources */,
+				F5C4B62D1ED2EF5E00AAE621 /* AppDelegate.m in Sources */,
+				F5C4B62A1ED2EF5E00AAE621 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5C4B6311ED2EF5E00AAE621 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C4B6321ED2EF5E00AAE621 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5C4B6361ED2EF5E00AAE621 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C4B6371ED2EF5E00AAE621 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5C4B63A1ED2EF5E00AAE621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5C4B63B1ED2EF5E00AAE621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5C4B63D1ED2EF5E00AAE621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A42BCE75DB7B6EF48235351 /* Pods-集成环信练习.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46LH2HV2WB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/集成环信练习/PrefixHeader.pch";
+				INFOPLIST_FILE = "集成环信练习/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huamanlou.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5C4B63E1ED2EF5E00AAE621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBFD6815347A06B42EA8C32C /* Pods-集成环信练习.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 46LH2HV2WB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/集成环信练习/PrefixHeader.pch";
+				INFOPLIST_FILE = "集成环信练习/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huamanlou.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C4B6201ED2EF5E00AAE621 /* Build configuration list for PBXProject "集成环信练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C4B63A1ED2EF5E00AAE621 /* Debug */,
+				F5C4B63B1ED2EF5E00AAE621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C4B63C1ED2EF5E00AAE621 /* Build configuration list for PBXNativeTarget "集成环信练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C4B63D1ED2EF5E00AAE621 /* Debug */,
+				F5C4B63E1ED2EF5E00AAE621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C4B61D1ED2EF5E00AAE621 /* Project object */;
+}
